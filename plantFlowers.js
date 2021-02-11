@@ -1,14 +1,12 @@
-/**
- * 
- * Cho một vườn hoa tương ứng với dãy arr gồm các số 0, 1. Vị trí mà có số 1 sẽ đại diện cho mảnh đất đã được dùng để trồng hoa. Còn số 0 đại diện cho mảnh đất trống. Hiện tại bạn đang có n bông hoa. Hãy tính toán xem có thể trồng được n bông hoa trên mảnh đất đó không, sao cho các vị trí ngay bên cạnh không có bông hoa nào.
+/*
+  Given a flower garden corresponding to array arr consisting of the numbers 0, 1. The position that has the number 1 will represent the land used to plant flowers. And the number 0 represents vacant land. You currently have n flowers. Calculate whether n flowers can be planted on that land, so that the positions next to them do not have any flowers.
 
-Ví dụ:
+For example:
 
-Với arr = [1, 0, 0, 0, 1], n = 1. Đầu ra plantFlowers(arr) = true.
-     Giải thích: Ta có thể trồng một bông hoa ở vị trí 2 (vị trí bắt đầu là vị trí 0)
+For arr = [1, 0, 0, 0, 1], n = 1. The output plantFlowers (arr) = true.
+      Explanation: We can plant a flower at position 2 (starting position is position 0)
 
-Với arr = [1, 0, 0, 0, 1], n = 2. Đầu ra plantFlowers(arr) = false.
-
+For arr = [1, 0, 0, 0, 1], n = 2. PlantFlowers (arr) = false output. 
  */
 
 function plantFlowers(arr, n) {
