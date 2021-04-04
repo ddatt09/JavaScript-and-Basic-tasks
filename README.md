@@ -4,9 +4,9 @@ Thanks all you guys !
 ---------------
 acronyms
 ---------------
+- HR : HackerRank
+- CL : CodeLearn
 - Py : Python
 - Cs : C Sharp, C#
 - Js : JavaScript
-- HR : HackerRank
-- CL : CodeLearn
 - [a number] : Numerical order by task
