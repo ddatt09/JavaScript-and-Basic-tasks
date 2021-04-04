@@ -76,6 +76,6 @@ def plusMinus(arr):
 if __name__ == '__main__':
     n = int(input())
 
-arr = list(map(int, input().rstrip().split()))
+    arr = list(map(int, input().rstrip().split()))
 
-print(plusMinus(arr))
+    print(plusMinus(arr))
