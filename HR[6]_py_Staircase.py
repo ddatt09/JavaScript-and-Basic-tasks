@@ -46,7 +46,7 @@ Cầu thang được căn phải, bao gồm # ký hiệu và dấu cách, đồn
 """
 
 
-# Complete the staircase function below.
+
 def staircase(n):
     for i in range(n):
         print(" " * (n - 1 - i) + "#" * (i + 1))
