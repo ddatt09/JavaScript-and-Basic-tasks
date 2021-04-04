@@ -6,7 +6,7 @@ acronyms
 ---------------
 - HR : HackerRank
 - CL : CodeLearn
-- Py : Python
-- Cs : C Sharp, C#
-- Js : JavaScript
+- py : Python
+- cs : C Sharp, C#
+- js : JavaScript
 - [a number] : Numerical order by task
