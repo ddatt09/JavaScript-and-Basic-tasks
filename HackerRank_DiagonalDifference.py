@@ -42,7 +42,6 @@ EXPLANTATION:
     Tổng trên đường chéo chính: 11 + 5 - 12 = 4
 
     Đường chéo phụ là:
-
              4
         5
     10
