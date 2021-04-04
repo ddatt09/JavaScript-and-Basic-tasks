@@ -69,24 +69,23 @@ EXPLANATION:
                 decimal negativeNum = 0M;
                 decimal zeroNum = 0M;
                 int lenOfarr = arr.Length;
-                for(int i = 0; i < lenOfarr; i++)
+                for (int i = 0; i < lenOfarr; i++)
                 {
                     if (arr[i] > 0) positiveNum += 1;
                     if (arr[i] < 0) negativeNum += 1;
                     if (arr[i] == 0) zeroNum += 1;
                 }
 
-                positiveNum = Math.Round(positiveNum/ lenOfarr,6);
-                negativeNum = Math.Round(negativeNum / lenOfarr,6);
-                zeroNum = Math.Round(zeroNum / lenOfarr,6);
+                positiveNum = Math.Round(positiveNum / lenOfarr, 6);
+                negativeNum = Math.Round(negativeNum / lenOfarr, 6);
+                zeroNum = Math.Round(zeroNum / lenOfarr, 6);
 
                 Console.WriteLine($"{positiveNum.ToString("N6")}\n{negativeNum.ToString("N6")}\n{zeroNum.ToString("N6")}");
             }
 
             int n = Convert.ToInt32(Console.ReadLine());
 
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
-            ;
+            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
             plusMinus(arr);
 
             Console.ReadKey();
