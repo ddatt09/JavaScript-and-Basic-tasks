@@ -50,11 +50,9 @@ def miniMaxSum(arr):
 
     for i in range(len(arr)):
         sumArr.append(sum(arr) - arr[i])
-
-    minSum = sumArr[0]
-    maxSum = minSum
-
-    for i in range(len(sumArr)):
+        if i == 0:
+            minSum = sumArr[0]
+            maxSum = minSum
         if sumArr[i] > maxSum: maxSum = sumArr[i]
         if sumArr[i] < minSum: minSum = sumArr[i]
 
