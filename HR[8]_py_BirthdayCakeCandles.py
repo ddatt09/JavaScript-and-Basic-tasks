@@ -1,4 +1,3 @@
-
 """
 ................................................... Birthday Cake Candles ..............................................................
 
@@ -38,13 +37,11 @@ GIẢI TRÌNH:
 
 def birthdayCakeCandles(candles):
     maxHigh = candles[0]
-    count = 0
     for i in range(len(candles)):
-        if candles[i] > maxHigh: maxHigh = candles[i]
+        if candles[i] >= maxHigh:
+            maxHigh = candles[i]
 
-    for i in range(len(candles)):
-        if candles[i] == maxHigh: count += 1
-    return count
+    return candles.count(maxHigh)
 
 
 # Write your code here
