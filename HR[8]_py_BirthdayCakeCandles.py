@@ -38,7 +38,7 @@ GIẢI TRÌNH:
 def birthdayCakeCandles(candles):
     maxHigh = candles[0]
     for i in range(len(candles)):
-        if candles[i] >= maxHigh:
+        if candles[i] > maxHigh:
             maxHigh = candles[i]
 
     return candles.count(maxHigh)
