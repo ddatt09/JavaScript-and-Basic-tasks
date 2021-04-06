@@ -55,15 +55,16 @@ LƯU Ý: Cẩn thận với tràn số nguyên! Sử dụng Số nguyên 64-bit.
         {
             void miniMaxSum(int[] arr)
             {
-                long minSum = 0, maxSum = 0;
+                long sum1 = 0, sum2 = sum1, minSum = sum1, maxSum = sum1;
 
                 for (int i = 0; i < arr.Length; i++)
                 {
-                    minSum += arr[i];
-                    maxSum += arr[i];
+                    sum1 += arr[i];
+                    sum2 += arr[i];
                 }
-
-                Console.WriteLine($"{minSum - arr.Max()} {maxSum - arr.Min()}");
+                minSum = sum1 - arr.Max();
+                maxSum = sum1 - arr.Min();
+                Console.WriteLine($"{minSum} {maxSum}");
             }
 
             int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
