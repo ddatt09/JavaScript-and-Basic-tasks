@@ -61,7 +61,7 @@ def getTotalX(a, b):
         if all(numbersBetween[i] % e == 0 for e in a) and all(e % numbersBetween[i] == 0 for e in b): resultArr.append(
             numbersBetween[i])
 
-    return resultArr
+    return len(resultArr)
 
 
 if __name__ == '__main__':
