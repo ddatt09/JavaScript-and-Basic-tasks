@@ -1,4 +1,3 @@
-
 """
 ................................................. Number Line Jumps ....................................................
 
@@ -51,13 +50,8 @@ GIẢI TRÌNH:
     Con chuột túi thứ hai có vị trí xuất phát ở phía trước (xa hơn về bên phải) vị trí xuất phát của con chuột túi thứ nhất (tức là x1 >x2). Bởi vì con kangaroo thứ hai di chuyển với tốc độ nhanh hơn (có nghĩa là v2 > v1) và đã đi trước con kangaroo đầu tiên, con kangaroo đầu tiên sẽ không bao giờ có thể đuổi kịp. Do đó,kết quả sẽ là NO.
 """
 
-# !/bin/python3
-
 
 # Complete the kangaroo function below.
-print(1.3 % 1 == 0)
-print(1 % 3)
-print(type(10 // 3) == int)
 
 
 def kangaroo(x1, v1, x2, v2):
