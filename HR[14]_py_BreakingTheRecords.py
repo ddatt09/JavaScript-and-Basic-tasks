@@ -70,6 +70,7 @@ def breakingRecords(scores):
     timesBreakingRecordsForLeast = 0
 
     scores.remove(bestRecord)
+    
     for i in range(len(scores)):
 
         if scores[i] > bestRecord:
