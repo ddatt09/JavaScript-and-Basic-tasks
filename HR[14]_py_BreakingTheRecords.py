@@ -65,7 +65,7 @@ Cô ấy đã phá kỷ lục tốt nhất của mình bốn lần (sau các tr�
 # Complete the breakingRecords function below.
 def breakingRecords(scores):
     bestRecord = scores[0]
-    leastRecord = scores[0]
+    leastRecord = bestRecord
     timesBreakingRecordsForMost = 0
     timesBreakingRecordsForLeast = 0
 
