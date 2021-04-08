@@ -1,4 +1,3 @@
-
 """
 ................................................. Subarray Division ....................................................
 
@@ -47,7 +46,7 @@ GIẢI THÍCH MẪU 0:
     Lily muốn đưa cho Ron m=2 hình vuông tính tổng các ô vuông của Ron d = 3. Hai phân đoạn sau đáp ứng các tiêu chí:
 
 hình ảnh.....
-............................................ EXAMPLE 0 .............................................
+............................................ EXAMPLE 1 .............................................
 
 INPUT MẪU 1:
     6
@@ -61,14 +60,15 @@ GIẢI THÍCH MẪU 1:
 hình ảnh ..........
 
 Vì vậy, chúng tôi in như câu trả lời của chúng tôi.
+............................................ EXAMPLE 2 .............................................
 
-Đầu vào mẫu 2
+INPUT MẪU 2:
     1
     4
     4 1
-Đầu ra mẫu 2
+OUTPUT MẪU 2:
     1
-Giải thích 2
+GIẢI THÍCH MẪU 2:
 Lily chỉ muốn cho Ron m = 1 hình vuông sô cô la có giá trị nguyên là d = 4. Bởi vì hình vuông sô cô la duy nhất trong thanh thỏa mãn hạn chế này, vì thế câu trả lời là 1.
 """
 
