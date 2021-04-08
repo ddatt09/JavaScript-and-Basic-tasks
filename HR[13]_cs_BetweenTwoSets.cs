@@ -57,12 +57,12 @@ OUTPUT MẪU:
             int getTotalX(List<int> a, List<int> b)
             {
                 int maxOfa = a.Max();
-                int maxOfb = b.Max();
+                int minOfb = b.Min();
 
                 List<int> numbersBetween = new List<int>();
                 List<int> resultArr = new List<int>();
 
-                for (int i = maxOfa; i <= maxOfb; i++)
+                for (int i = maxOfa; i <= minOfb; i++)
                 {
                     numbersBetween.Add(i);
                 }
