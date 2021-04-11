@@ -91,7 +91,7 @@ Lily chỉ muốn cho Ron m = 1 hình vuông sô cô la có giá trị nguyên l
                 {
                     int[] lenOfSegment = s.Skip(i).Take(m).ToArray();
 
-                    Console.WriteLine("[{0}]", string.Join(", ", lenOfSegment));
+                   // Console.WriteLine("[{0}]", string.Join(", ", lenOfSegment));
 
                     if (lenOfSegment.Sum() == d) numberOfWays += 1;
                 }
