@@ -15,7 +15,7 @@ namespace ConsoleApp1
 
             int pageCount(int n, int p)
             {
-                if (p == 1 || p == n) return 0;
+                if (p == n) return 0;
 
                 int flipTimes = -1;
                 int flipTimesBack = -1;
