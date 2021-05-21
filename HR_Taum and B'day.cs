@@ -1,13 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-/*
- To do: - HackerRank
-        - Bài thi vòng loại số 2 slide -> pdf
-        - https://learn.unity.com/pathway/unity-essentials?fbclid=IwAR2B1xlnyxMYr9FwMSEtL6mkxF7Y-ZVgqfecjrxZW_BnjLQEESpL56DSZGE&signup=true
-        - My Team Gaming
-        - luyện kiến thức của Hào
- */
+
 
 namespace ConsoleApp1
 {
