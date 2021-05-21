@@ -15,11 +15,7 @@ namespace ConsoleApp1
     {
         public static long taumBday(long b, long w, long bc, long wc, long z)
         {
-            long result = 0;
-            result = b * bc + w * wc;
-            if (bc + z < wc) result = (bc + z) * w + b * bc;
-            if (wc + z < bc) result = wc * w + b * (wc + z);
-            return result;
+           return b * Math.Min(bc, wc + z) + w * Math.Min(wc, bc + z);
         }
     }
 
